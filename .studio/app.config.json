@@ -1,0 +1,11 @@
+{
+  "alpine": {
+    "header": {
+      "position": "left",
+      "logo": {
+        "path": "/alpine-0.webp",
+        "pathDark": "/alpine-0.webp"
+      }
+    }
+  }
+}
