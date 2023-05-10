@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@nuxt-themes/alpine': ^1.5.0
-  '@nuxt/content': ^2.6.0
+  '@nuxt/content': 2.6.0
   '@nuxthq/studio': ^0.12.1
   nuxt: ^3.3.1
 
@@ -554,18 +554,18 @@ packages:
     dependencies:
       '@nuxt/schema': 3.2.3
       c12: 1.1.2
-      consola: 2.15.3
-      defu: 6.1.2
+      consola: registry.npmjs.org/consola/2.15.3
+      defu: registry.npmjs.org/defu/6.1.2
       globby: 13.1.3
       hash-sum: 2.0.0
       ignore: 5.2.4
       jiti: 1.17.2
-      knitwork: 1.0.0
+      knitwork: registry.npmjs.org/knitwork/1.0.0
       lodash.template: 4.5.0
       mlly: 1.1.1
-      pathe: 1.1.0
+      pathe: registry.npmjs.org/pathe/1.1.0
       pkg-types: 1.0.2
-      scule: 1.0.0
+      scule: registry.npmjs.org/scule/1.0.0
       semver: 7.3.8
       unctx: 2.1.2
       unimport: 2.2.4
@@ -635,15 +635,15 @@ packages:
     dependencies:
       c12: 1.1.2
       create-require: 1.1.1
-      defu: 6.1.2
+      defu: registry.npmjs.org/defu/6.1.2
       hookable: 5.4.2
       jiti: 1.17.2
-      pathe: 1.1.0
+      pathe: registry.npmjs.org/pathe/1.1.0
       pkg-types: 1.0.2
       postcss-import-resolver: 2.0.0
-      scule: 1.0.0
+      scule: registry.npmjs.org/scule/1.0.0
       std-env: 3.3.2
-      ufo: 1.1.1
+      ufo: registry.npmjs.org/ufo/1.1.1
       unimport: 2.2.4
       untyped: 1.2.2
     transitivePeerDependencies:
@@ -792,9 +792,9 @@ packages:
   /@nuxtjs/color-mode/3.2.0:
     resolution: {integrity: sha512-isDR01yfadopiHQ/VEVUpyNSPrk5PCjUHS4t1qYRZwuRGefU4s9Iaxf6H9nmr1QFzoMgTm+3T0r/54jLwtpZbA==}
     dependencies:
-      '@nuxt/kit': 3.2.3
+      '@nuxt/kit': registry.npmjs.org/@nuxt/kit/3.4.3
       lodash.template: 4.5.0
-      pathe: 1.1.0
+      pathe: registry.npmjs.org/pathe/1.1.0
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -1357,7 +1357,7 @@ packages:
     resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==}
     engines: {node: '>= 6.0.0'}
     dependencies:
-      debug: 4.3.4
+      debug: registry.npmjs.org/debug/4.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1614,13 +1614,13 @@ packages:
   /c12/1.1.2:
     resolution: {integrity: sha512-fHT5HDEHNMb2oImnqJ88/UlpEOkY/chdyYxSd3YCpvBqBvU0IDlHTkNc7GnjObDMxdis2lL+rwlQcNq8VeZESA==}
     dependencies:
-      defu: 6.1.2
+      defu: registry.npmjs.org/defu/6.1.2
       dotenv: 16.0.3
       giget: 1.1.2
-      jiti: 1.17.2
-      mlly: 1.1.1
-      pathe: 1.1.0
-      pkg-types: 1.0.2
+      jiti: registry.npmjs.org/jiti/1.18.2
+      mlly: registry.npmjs.org/mlly/1.2.0
+      pathe: registry.npmjs.org/pathe/1.1.0
+      pkg-types: registry.npmjs.org/pkg-types/1.0.2
       rc9: 2.0.1
     transitivePeerDependencies:
       - supports-color
@@ -1733,15 +1733,15 @@ packages:
     resolution: {integrity: sha512-p1dJO1Z995odIxdypzAykHIaUu+XnEvwYPSTyKJsbpL82o99sxN1G24tbecoMxTsV4PI+ZId82GJXRL2hhOeJA==}
     hasBin: true
     dependencies:
-      c12: 1.1.2
-      consola: 2.15.3
+      c12: registry.npmjs.org/c12/1.4.1
+      consola: registry.npmjs.org/consola/2.15.3
       convert-gitmoji: 0.1.3
       execa: 6.1.0
       mri: 1.2.0
       node-fetch-native: 1.0.2
-      pkg-types: 1.0.2
-      scule: 1.0.0
-      semver: 7.3.8
+      pkg-types: registry.npmjs.org/pkg-types/1.0.2
+      scule: registry.npmjs.org/scule/1.0.0
+      semver: registry.npmjs.org/semver/7.5.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2256,7 +2256,7 @@ packages:
       '@socket.io/component-emitter': 3.1.0
       debug: 4.3.4
       engine.io-parser: 5.0.6
-      ws: 8.2.3
+      ws: registry.npmjs.org/ws/8.2.3
       xmlhttprequest-ssl: 2.0.0
     transitivePeerDependencies:
       - bufferutil
@@ -2273,7 +2273,7 @@ packages:
     resolution: {integrity: sha512-Nv9m36S/vxpsI+Hc4/ZGRs0n9mXqSWGGq49zxb/cJfPAQMbUtttJAlNPS4AQzaBdw/pKskw5bMbekT/Y7W/Wlg==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: registry.npmjs.org/graceful-fs/4.2.10
       memory-fs: 0.5.0
       tapable: 1.1.3
     dev: true
@@ -2450,7 +2450,7 @@ packages:
       enhanced-resolve: 5.12.0
       mlly: 1.2.0
       pathe: 1.1.0
-      ufo: 1.1.1
+      ufo: registry.npmjs.org/ufo/1.1.1
     dev: true
 
   /fast-glob/3.2.12:
@@ -2618,7 +2618,7 @@ packages:
     hasBin: true
     dependencies:
       colorette: 2.0.19
-      defu: 6.1.2
+      defu: registry.npmjs.org/defu/6.1.2
       https-proxy-agent: 5.0.1
       mri: 1.2.0
       node-fetch-native: 1.0.2
@@ -3125,12 +3125,12 @@ packages:
     dependencies:
       clipboardy: 3.0.0
       colorette: 2.0.19
-      defu: 6.1.2
+      defu: registry.npmjs.org/defu/6.1.2
       get-port-please: 3.0.1
       http-shutdown: 1.2.2
       ip-regex: 5.0.0
       node-forge: 1.3.1
-      ufo: 1.1.1
+      ufo: registry.npmjs.org/ufo/1.1.1
     dev: true
 
   /local-pkg/0.4.3:
@@ -3388,13 +3388,13 @@ packages:
       typescript:
         optional: true
     dependencies:
-      defu: 6.1.2
+      defu: registry.npmjs.org/defu/6.1.2
       esbuild: 0.17.11
       fs-extra: 11.1.0
-      globby: 13.1.3
-      jiti: 1.17.2
-      mri: 1.2.0
-      pathe: 1.1.0
+      globby: registry.npmjs.org/globby/13.1.4
+      jiti: registry.npmjs.org/jiti/1.18.2
+      mri: registry.npmjs.org/mri/1.2.0
+      pathe: registry.npmjs.org/pathe/1.1.0
       typescript: 4.9.5
     dev: true
 
@@ -3404,7 +3404,7 @@ packages:
       acorn: 8.8.2
       pathe: 1.1.0
       pkg-types: 1.0.2
-      ufo: 1.1.1
+      ufo: registry.npmjs.org/ufo/1.1.1
     dev: true
 
   /mlly/1.2.0:
@@ -3647,8 +3647,8 @@ packages:
   /nuxt-component-meta/0.4.3:
     resolution: {integrity: sha512-40wsnbCh2neNdKVrwSiqV/ea7QshYjp3kpfk8JZaxSW/XcgNg2tzka4L+M8caOvQalyAKi6AaENPLaTYOZDbQg==}
     dependencies:
-      '@nuxt/kit': 3.2.3
-      scule: 1.0.0
+      '@nuxt/kit': registry.npmjs.org/@nuxt/kit/3.4.3
+      scule: registry.npmjs.org/scule/1.0.0
       typescript: 4.9.4
       vue-component-meta: 1.0.24_typescript@4.9.4
     transitivePeerDependencies:
@@ -3659,11 +3659,11 @@ packages:
   /nuxt-config-schema/0.4.4:
     resolution: {integrity: sha512-5NnyyH2qSgraQo6kcW/8SWqBZ/pEY/PwyepODPWYYv4ZZ8BiqC850OTmyO2oTBL4O+Xg4fR7hAwSB4g5pIMpSg==}
     dependencies:
-      '@nuxt/kit': 3.2.3
+      '@nuxt/kit': registry.npmjs.org/@nuxt/kit/3.4.3
       changelogen: 0.4.1
-      defu: 6.1.2
+      defu: registry.npmjs.org/defu/6.1.2
       jiti: 1.17.2
-      pathe: 1.1.0
+      pathe: registry.npmjs.org/pathe/1.1.0
       untyped: 1.2.2
     transitivePeerDependencies:
       - rollup
@@ -3674,7 +3674,7 @@ packages:
     resolution: {integrity: sha512-066pfova2nE9GZDvHE9oMkqJCwsnJvOZKU2FOSzRpjfXupH3UPtP9Zw8+C2wvZ82Nel6fuRoIUNQh5Sx8ZeQrQ==}
     dependencies:
       '@iconify/vue': 4.1.0
-      '@nuxt/kit': 3.2.3
+      '@nuxt/kit': registry.npmjs.org/@nuxt/kit/3.4.3
       nuxt-config-schema: 0.4.4
     transitivePeerDependencies:
       - rollup
@@ -3952,19 +3952,19 @@ packages:
       '@volar/vue-language-core': 1.2.1
       acorn: 8.8.2
       chroma-js: 2.4.2
-      consola: 2.15.3
+      consola: registry.npmjs.org/consola/2.15.3
       csstype: 3.1.1
-      defu: 6.1.2
+      defu: registry.npmjs.org/defu/6.1.2
       magic-string: 0.30.0
       nanoid: 4.0.1
-      ohash: 1.0.0
+      ohash: registry.npmjs.org/ohash/1.1.2
       paneer: 0.1.0
-      pathe: 1.1.0
+      pathe: registry.npmjs.org/pathe/1.1.0
       postcss-custom-properties: 13.1.4
       postcss-dark-theme-class: 0.7.3
       postcss-nested: 6.0.1
       recast: 0.22.0
-      scule: 1.0.0
+      scule: registry.npmjs.org/scule/1.0.0
       style-dictionary-esm: 1.3.7
       unbuild: 1.1.2
       unplugin: 1.1.0
@@ -4501,7 +4501,7 @@ packages:
       rollup: ^3.0.0
       typescript: ^4.1
     dependencies:
-      magic-string: 0.29.0
+      magic-string: registry.npmjs.org/magic-string/0.29.0
       rollup: 3.18.0
       typescript: 4.9.5
     optionalDependencies:
@@ -4625,7 +4625,7 @@ packages:
   /serve-placeholder/2.0.1:
     resolution: {integrity: sha512-rUzLlXk4uPFnbEaIz3SW8VISTxMuONas88nYWjAWaM2W9VDbt9tyFOr3lq8RhVOFrT3XISoBw8vni5una8qMnQ==}
     dependencies:
-      defu: 6.1.2
+      defu: registry.npmjs.org/defu/6.1.2
     dev: true
 
   /serve-static/1.15.0:
@@ -4817,12 +4817,12 @@ packages:
       chalk: 4.1.2
       change-case: 4.1.2
       commander: 10.0.0
-      consola: 2.15.3
+      consola: registry.npmjs.org/consola/2.15.3
       glob: 8.1.0
-      jiti: 1.17.2
-      json5: 2.2.3
+      jiti: registry.npmjs.org/jiti/1.18.2
+      json5: registry.npmjs.org/json5/2.2.3
       jsonc-parser: 3.2.0
-      lodash.template: 4.5.0
+      lodash.template: registry.npmjs.org/lodash.template/4.5.0
       tinycolor2: 1.6.0
     dev: true
 
@@ -5008,24 +5008,24 @@ packages:
       '@rollup/plugin-replace': 5.0.2_rollup@3.18.0
       '@rollup/pluginutils': 5.0.2_rollup@3.18.0
       chalk: 5.2.0
-      consola: 2.15.3
-      defu: 6.1.2
+      consola: registry.npmjs.org/consola/2.15.3
+      defu: registry.npmjs.org/defu/6.1.2
       esbuild: 0.17.11
-      globby: 13.1.3
+      globby: registry.npmjs.org/globby/13.1.4
       hookable: 5.4.2
-      jiti: 1.17.2
+      jiti: registry.npmjs.org/jiti/1.18.2
       magic-string: 0.29.0
       mkdist: 1.1.1_typescript@4.9.5
-      mlly: 1.1.1
+      mlly: registry.npmjs.org/mlly/1.2.0
       mri: 1.2.0
-      pathe: 1.1.0
-      pkg-types: 1.0.2
+      pathe: registry.npmjs.org/pathe/1.1.0
+      pkg-types: registry.npmjs.org/pkg-types/1.0.2
       pretty-bytes: 6.1.0
       rollup: 3.18.0
       rollup-plugin-dts: 5.2.0_fn2onl6nbsljlgjr3jlzr6w7we
-      scule: 1.0.0
+      scule: registry.npmjs.org/scule/1.0.0
       typescript: 4.9.5
-      untyped: 1.2.2
+      untyped: registry.npmjs.org/untyped/1.3.2
     transitivePeerDependencies:
       - sass
       - supports-color
@@ -5070,10 +5070,10 @@ packages:
       fast-glob: 3.2.12
       local-pkg: 0.4.3
       magic-string: 0.27.0
-      mlly: 1.1.1
-      pathe: 1.1.0
-      pkg-types: 1.0.2
-      scule: 1.0.0
+      mlly: registry.npmjs.org/mlly/1.2.0
+      pathe: registry.npmjs.org/pathe/1.1.0
+      pkg-types: registry.npmjs.org/pkg-types/1.0.2
+      scule: registry.npmjs.org/scule/1.0.0
       strip-literal: 1.0.1
       unplugin: 1.1.0
     transitivePeerDependencies:
@@ -5175,7 +5175,7 @@ packages:
       mri: 1.2.0
       node-fetch-native: 1.0.2
       ofetch: 1.0.1
-      ufo: 1.1.1
+      ufo: registry.npmjs.org/ufo/1.1.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5520,19 +5520,6 @@ packages:
 
   /wrappy/1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
-    dev: true
-
-  /ws/8.2.3:
-    resolution: {integrity: sha512-wBuoj1BDpC6ZQ1B7DWQBYVLphPWkm8i9Y0/3YdHjHKHiohOJ1ws+3OccDWtH+PoC9DZD5WOTrJvNbWvjS6JWaA==}
-    engines: {node: '>=10.0.0'}
-    peerDependencies:
-      bufferutil: ^4.0.1
-      utf-8-validate: ^5.0.2
-    peerDependenciesMeta:
-      bufferutil:
-        optional: true
-      utf-8-validate:
-        optional: true
     dev: true
 
   /xmlhttprequest-ssl/2.0.0:
@@ -6494,7 +6481,6 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
-    dev: false
 
   registry.npmjs.org/@nuxt/schema/3.4.1:
     resolution: {integrity: sha512-xhPh9JfVKXRQVfdUT6BKieDTCljBjbIGgGCQnxplVi4FUTWRKUXR7MFwsobr5D9AJpeE0mg5/kRRh5gUX37vAQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@nuxt/schema/-/schema-3.4.1.tgz}
@@ -6537,7 +6523,6 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
-    dev: false
 
   registry.npmjs.org/@nuxthq/studio/0.12.1:
     resolution: {integrity: sha512-g9GV8JkQqqYLtP+gsNtPr4fh49jc3eIdAB2ZfiudZKkFdW0BxtT/xPx8RjNYQwyInKssDDB26zzYrRYH9hhHCQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@nuxthq/studio/-/studio-0.12.1.tgz}
@@ -6948,6 +6933,12 @@ packages:
     resolution: {integrity: sha512-Fu4hJdvzeylCfQPp9SGWidpzrMs7tTrlu6Vb8XGaRGck8QSNZJJp538Wrb60Lax4fPwR64ViY468OIUTbRlGZg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/comma-separated-tokens/-/comma-separated-tokens-2.0.3.tgz}
     name: comma-separated-tokens
     version: 2.0.3
+
+  registry.npmjs.org/consola/2.15.3:
+    resolution: {integrity: sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/consola/-/consola-2.15.3.tgz}
+    name: consola
+    version: 2.15.3
+    dev: true
 
   registry.npmjs.org/consola/3.1.0:
     resolution: {integrity: sha512-rrrJE6rP0qzl/Srg+C9x/AE5Kxfux7reVm1Wh0wCjuXvih6DqZgqDZe8auTD28fzJ9TF0mHlSDrPpWlujQRo1Q==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/consola/-/consola-3.1.0.tgz}
@@ -7697,6 +7688,15 @@ packages:
     version: 9.1.1
     engines: {node: 14 || >=16.14}
 
+  registry.npmjs.org/magic-string/0.29.0:
+    resolution: {integrity: sha512-WcfidHrDjMY+eLjlU+8OvwREqHwpgCeKVBUpQ3OhYYuvfaYCUgcbuBzappNzZvg/v8onU3oQj+BYpkOJe9Iw4Q==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/magic-string/-/magic-string-0.29.0.tgz}
+    name: magic-string
+    version: 0.29.0
+    engines: {node: '>=12'}
+    dependencies:
+      '@jridgewell/sourcemap-codec': registry.npmjs.org/@jridgewell/sourcemap-codec/1.4.14
+    dev: true
+
   registry.npmjs.org/magic-string/0.30.0:
     resolution: {integrity: sha512-LA+31JYDJLs82r2ScLrlz1GjSgu66ZV518eyWT+S8VhyQn/JL0u9MeBOvQMGYiPk1DBiSN9DDMOcXvigJZaViQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/magic-string/-/magic-string-0.30.0.tgz}
     name: magic-string
@@ -7726,15 +7726,6 @@ packages:
       '@types/mdast': registry.npmjs.org/@types/mdast/3.0.10
       '@types/unist': registry.npmjs.org/@types/unist/2.0.6
       unist-util-visit: registry.npmjs.org/unist-util-visit/4.1.2
-
-  registry.npmjs.org/mdast-util-find-and-replace/2.2.1:
-    resolution: {integrity: sha512-SobxkQXFAdd4b5WmEakmkVoh18icjQRxGy5OWTCzgsLRm1Fu/KCtwD1HIQSsmq5ZRjVH0Ehwg6/Fn3xIUk+nKw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/mdast-util-find-and-replace/-/mdast-util-find-and-replace-2.2.1.tgz}
-    name: mdast-util-find-and-replace
-    version: 2.2.1
-    dependencies:
-      escape-string-regexp: registry.npmjs.org/escape-string-regexp/5.0.0
-      unist-util-is: registry.npmjs.org/unist-util-is/5.2.0
-      unist-util-visit-parents: registry.npmjs.org/unist-util-visit-parents/5.1.3
 
   registry.npmjs.org/mdast-util-find-and-replace/2.2.2:
     resolution: {integrity: sha512-MTtdFRz/eMDHXzeK6W3dO7mXUlF82Gom4y0oOgvHhh/HXZAGvIQDUvQ0SuUx+j2tv44b8xTHOm8K/9OoRFnXKw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/mdast-util-find-and-replace/-/mdast-util-find-and-replace-2.2.2.tgz}
@@ -7773,7 +7764,7 @@ packages:
     dependencies:
       '@types/mdast': registry.npmjs.org/@types/mdast/3.0.10
       ccount: registry.npmjs.org/ccount/2.0.1
-      mdast-util-find-and-replace: registry.npmjs.org/mdast-util-find-and-replace/2.2.1
+      mdast-util-find-and-replace: registry.npmjs.org/mdast-util-find-and-replace/2.2.2
       micromark-util-character: registry.npmjs.org/micromark-util-character/1.1.0
 
   registry.npmjs.org/mdast-util-gfm-footnote/1.0.1:
@@ -9172,6 +9163,21 @@ packages:
         optional: true
       utf-8-validate:
         optional: true
+
+  registry.npmjs.org/ws/8.2.3:
+    resolution: {integrity: sha512-wBuoj1BDpC6ZQ1B7DWQBYVLphPWkm8i9Y0/3YdHjHKHiohOJ1ws+3OccDWtH+PoC9DZD5WOTrJvNbWvjS6JWaA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/ws/-/ws-8.2.3.tgz}
+    name: ws
+    version: 8.2.3
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: ^5.0.2
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+    dev: true
 
   registry.npmjs.org/xmlhttprequest-ssl/2.0.0:
     resolution: {integrity: sha512-QKxVRxiRACQcVuQEYFsI1hhkrMlrXHPegbbd1yn9UHOmRxY+si12nQYzri3vbzt8VdTTRviqcKxcyllFas5z2A==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/xmlhttprequest-ssl/-/xmlhttprequest-ssl-2.0.0.tgz}
