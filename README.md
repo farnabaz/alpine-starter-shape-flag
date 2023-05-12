@@ -2,7 +2,7 @@
 
 Starter template for [Alpine](https://alpine.nuxt.space).
 
-## Clone
+## Clone d
 
 Clone the repository (using `nuxi`):
 
